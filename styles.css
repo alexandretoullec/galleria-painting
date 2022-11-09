@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --dark-grey:#7d7d7d;
+  --grey: #e5e5e5;
+  --light-grey: #f3f3f3;
+
+  /* fs */
+  --fs-h1:4rem;
+  --fs-h2:3rem;
+  --fs-h3:2rem;
+  --fs-p:1.6rem;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  padding: 2rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+
+/* start here */
+
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1{
+  color: var(--black);
+  font-size: var(--fs-h1);
+}
+
+header button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.line{
+  content: "";
+  background-color: var(--grey);
+  height: 1px;
+  width: 100%;
+  margin: 3rem 0;
+}
+
+/* header hr{
+  height:4rem;
+} */
+
+
+/* main */
+
+/* .grid{
+  
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+  
+  grid-gap: 16px;
+}
+
+.grid a{
+  position: relative;
+  text-decoration: none; 
+  color: var(--white);
+}
+
+.grid img{
+  display: block;
+  
+  width: 100%;
+}
+
+.grid img,
+.grid h2,
+.grid h3{
+  position: absolute;
+  color: #000000;
+} */
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column a {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+
+
+
