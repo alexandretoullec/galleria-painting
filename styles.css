@@ -67,40 +67,8 @@ header button{
   margin: 3rem 0;
 }
 
-/* header hr{
-  height:4rem;
-} */
-
-
 /* main */
 
-/* .grid{
-  
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
-  
-  grid-gap: 16px;
-}
-
-.grid a{
-  position: relative;
-  text-decoration: none; 
-  color: var(--white);
-}
-
-.grid img{
-  display: block;
-  
-  width: 100%;
-}
-
-.grid img,
-.grid h2,
-.grid h3{
-  position: absolute;
-  color: #000000;
-} */
 
 .flex{
   display: flex;
@@ -120,6 +88,17 @@ header button{
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+}
+
+
+
+a {
+  position: relative;
+}
+
+
+a img {
+  position: absolute;
 }
 
 
